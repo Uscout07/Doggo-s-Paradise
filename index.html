@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <header>
+    <title>
+      Doggo's Paradise
+      <link rel='icon' type="image/png" href='generate-an-cartoonish-logo-for-a-dog-daycare-with-color-harmony-with-ffd900-14473360.png'>
+    </title>
+    <link rel="stylesheet" href="doggo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Dosis&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</header>
+<body>
+  <div class="main">
+    <nav>
+      <div class="logo">
+        <div class="icon">
+          <img class="logo_image" src="Assests/generate-an-cartoonish-logo-for-a-dog-daycare-with-color-harmony-with-ffd900-14473360.png" alt="logo">
+        </div>
+        <div>
+          <a class='brand_name' href='#home'>Doggo's Paradise</a>
+        </div>
+      </div>
+        <ul class="main-bar">
+          <li class="hideOnSmall"><a href='#about'>About us</a></li>
+          <li class="hideOnSmall"><a href='#gallery'>Gallery</a></li>
+          <li class="hideOnSmall"><a href='#reviews'>Reviews</a></li>
+          <li class="hideOnSmall"><a href='#contact'>Contact us</a></li>
+          <li class='menu-button' onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        </ul>
+      <ul class="sidebar">
+         <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+         <li><a href='#home'>Home</a></li>
+         <li><a href='#about'>About us</a></li>
+         <li><a href='#gallery'>Gallery</a></li>
+         <li><a href='#reviews'>Reviews</a></li>
+         <li><a href='#contact'>Contact us</a></li>
+    </ul>
+    </nav>
+    
+    <div id='home'class="hero">
+      <div class="about">
+        <p class="about_info">Welcome to Doggo's Paradise, your dog's haven in the heart of New York City! </p>
+      </div>
+    </div>
+    <div id='about' class="about_section">
+      <h3 class="about_heading">About Us</h3>
+      <p class="about_content"> At Doggos Paradise, we pride ourselves on providing a safe and joyful environment for your furry friends. Our experienced team ensures that each dog receives personalized care, engaging activities, and plenty of love. With a spacious play area, cozy accommodations, and a commitment to your pet's well-being, Doggos Paradise is where tails wag and dogs play freely. Join our community, where happiness meets a wagging tail every day.</p>
+    </div>
+    <div id='gallery' class="slider-container">
+      <div class="slider">
+        <img class="slide-img" src="Assests/Gallery-image2.jpg" alt="Image 1">
+        <img class='slide-img' src="Assests/Gallery-image1.jpg" alt="Image 2">
+        <img class="slide-img" src="Assests/Gallery-image3.jpg" alt="Image 3">
+      </div>
+      <button class="prev" onclick="changeSlide(-1)"><img  class='previous' src="Assests/prev_yellow.png"></button>
+      <button class="next" onclick="changeSlide(1)"><img class='nexts' src="Assests/next_yellow.png"></button>
+    </div>
+    <div id='reviews' class="testimonial-container">
+      <div class="testimonial-heading">
+        <h2>Reviews</h2>
+      </div>
+      <div class="testimonial-row">
+      <div class="testimonial">
+          <img src="Assests/user1.png" alt="User 1">
+          <p>"Pawsitively amazing! Our dog loves Doggo’s Paradise.."</p>
+          <span class="author">Emily J</span>
+      </div>
+      <div class="testimonial">
+          <img src="Assests/user2.png" alt="User 2">
+          <p>"Top-notch care. Doggo’s Paradise is our go-to spot."</p>
+          <span class="author">Jane S</span>
+      </div>
+    </div>
+    <div class="testimonial-row">
+      <div class="testimonial">
+        <img src="Assests/user3.png" alt="User 2">
+        <p>"Happy pup, happy us! Doggo’s Paradise is fantastic."</p>
+        <span class="author">Daniel E</span>
+      </div>
+      <div class="testimonial">
+      <img src="Assests/user4.png" alt="User 2">
+      <p>"Doggo’s Paradise: Where tails wag and hearts melt."</p>
+      <span class="author">Priya K</span>
+      </div>
+    </div> 
+  </div>
+  <div id='contact' class="contact_us">
+    <div class="contact_heading">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="contact_container">
+      <div class="contact_row1">
+        <div class="phone_img">
+          <img class='phone_image' src="Assests/phone_icon.png">
+        </div>
+        <div>
+             <p><a class="mail" href='tel:+00000000'>+555 XXX XXX</p>
+        </div>
+      </div>
+      <div class="contact_row2">
+        <div class="mail_image">
+          <img class="mail_icon" src="Assests/mail-icon.png">
+
+        </div>
+        <div></div>
+          <p><a class="mail"href="mailto:Contact@doggosdaycare.com">Contact@doggo'sdaycare.com</a></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_logo">
+        <img class="footer_logo_img" src="Assests/generate-an-cartoonish-logo-for-a-dog-daycare-with-color-harmony-with-ffd900-14473360.png">
+      </div>
+      <div class="footer_row2">
+        <h3 class="footer_heading">Address</h3>
+        <p class='footer_para'> XXX<br>Times Square<br>New York</p>
+        <p class='footer_para'>Doggo's Paradise &trade; </p>
+      </div>
+      <div class="footer_row3">
+        <h3 class="footer_heading">Socials</h3>
+        <div class="social_logos">
+          <img class='logo_images' src="Assests/twitter-x-logo.png">
+          <img class='logo_images' src="Assests/facebook-logo.png">
+          <img class='logo_images' src="Assests/instagram-logo.png">
+        </div>
+        <p class="footer_para"> Site By: Parikalpana.io</p>
+      </div>
+    </footer>
+  </div>
+
+  </div>
+<script>
+  let currentSlide = 0;
+
+function changeSlide(direction) {
+  const slider = document.querySelector('.slider');
+  const slides = document.querySelectorAll('.slider img');
+  const slideWidth = slides[0].clientWidth;
+
+  currentSlide += direction;
+
+
+  if (currentSlide < 0) {
+    currentSlide = slides.length - 1;
+  } else if (currentSlide >= slides.length) {
+    currentSlide = 0;
+  }
+
+  slider.style.transform = `translateX(${-currentSlide * slideWidth}px)`;
+}
+
+function showSidebar() {
+  const sidebar= document.querySelector('.sidebar')
+  sidebar.style.display = 'flex'
+}
+
+function hideSidebar() {
+  const sidebar= document.querySelector('.sidebar')
+  sidebar.style.display = 'none'
+}
+</script>
+</body>
+</html>
